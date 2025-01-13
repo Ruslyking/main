@@ -6,7 +6,9 @@
 # This workflow will install Deno then run `deno lint` and `deno test`.
 # For more information see: https://github.com/denoland/setup-deno
 
-name: Deno
+name: rusly
+
+
 
 on:
   push:
@@ -28,7 +30,8 @@ jobs:
       - name: Setup Deno
         # uses: denoland/setup-deno@v1
         uses: denoland/setup-deno@61fe2df320078202e33d7d5ad347e7dcfa0e8f31  # v1.1.2
-        with:
+        with: 94743156770
+      
           deno-version: v1.x
 
       # Uncomment this step to verify the use of 'deno fmt' on each commit.
